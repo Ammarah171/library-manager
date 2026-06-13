@@ -1,6 +1,6 @@
 # Library Manager
 
-A personal library tracking app built with **Node.js**, **Express**, and **SQL** (via sql.js). Track books you own, are reading, or want to read — and organise them into custom shelves.
+A personal library tracking app built with **Node.js**, **Express**, and **SQLite** (via sql.js). Track books you own, are reading, or want to read — and organise them into custom shelves.
 
 Built as a portfolio project to demonstrate proficiency in **OOP**, **JavaScript**, and **SQL**.
 
@@ -13,7 +13,7 @@ Built as a portfolio project to demonstrate proficiency in **OOP**, **JavaScript
 - Create and delete custom shelves
 - Add books to shelves and remove them
 - Live stats bar showing total, read, reading, and want-to-read counts
-- Data persisted to a local SQL file (`library.db`)
+- Data persisted to a local SQLite file (`library.db`)
 
 ---
 
@@ -23,7 +23,7 @@ Built as a portfolio project to demonstrate proficiency in **OOP**, **JavaScript
 |---|---|
 | Runtime | Node.js |
 | Server | Express |
-| Database | SQL via sql.js |
+| Database | SQLite via sql.js |
 | Frontend | Vanilla JS, HTML, CSS |
 
 ---
